@@ -6,6 +6,8 @@ This is a guide to getting a letsencrypt certificate manually when you have acce
 
 * [Docker](https://docs.docker.com/get-docker/)
 
+## Steps
+
 1. Create a folder to store the certificate files. For example
 
     ```bash
