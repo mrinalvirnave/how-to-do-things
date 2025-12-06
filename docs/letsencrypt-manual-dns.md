@@ -18,9 +18,9 @@ This is a guide to getting a letsencrypt certificate manually when you have acce
 2. Get the plugin
 
     ```bash
-    > curl -o /etc/letsencrypt/acme-dns-auth.py https://raw.githubusercontent.com/joohoi/acme-dns-certbot-joohoi/master/acme-dns-auth.py
+    > curl -o ~/certs/etc/letsencrypt/acme-dns-auth.py https://raw.githubusercontent.com/joohoi/acme-dns-certbot-joohoi/master/acme-dns-auth.py
     
-    > chmod 0700 /etc/letsencrypt/acme-dns-auth.py
+    > chmod 0700 ~/certs/etc/letsencrypt/acme-dns-auth.py
     ```
 
 3. Start Certbot
@@ -37,4 +37,4 @@ This is a guide to getting a letsencrypt certificate manually when you have acce
 
 4. Follow the prompts and create the appropriate cname record in your DNS to authorize the request.
 
-5. The certificates will be stored in `/path_to/etc/letsencrypt:/etc/letsencrypt`
+5. The certificates will be stored in `/path_to/etc/letsencrypt`
